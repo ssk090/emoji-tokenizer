@@ -2,6 +2,11 @@
 
 A JavaScript tokenizer that learns vocabulary from text, supports ENCODE/DECODE, and handles special tokens. Includes a CLI demo with emoji sequence encoding for large vocabularies.
 
+
+https://github.com/user-attachments/assets/a4da855b-978e-4abf-988f-a9d6434cd28b
+
+
+
 ## Features
 
 - Learns vocab from any input text
