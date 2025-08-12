@@ -2,10 +2,7 @@
 
 A JavaScript tokenizer that learns vocabulary from text, supports ENCODE/DECODE, and handles special tokens. Includes a CLI demo with emoji sequence encoding for large vocabularies.
 
-
 https://github.com/user-attachments/assets/a4da855b-978e-4abf-988f-a9d6434cd28b
-
-
 
 ## Features
 
@@ -53,8 +50,9 @@ node demo.js
 ### API Usage
 
 ```js
-const Tokenizer = require("./custom-tokenizer");
-const tokenizer = new Tokenizer();
+import CustomTokenizer from "@shivanandasai/emoji-tokenizer";
+
+const tokenizer = new CustomTokenizer();
 tokenizer.learnVocabFromText("hello world");
 const { rawIds, funEncoded } = tokenizer.encode("hello world");
 console.log(rawIds, funEncoded); // e.g., [1,2], ["⚡", "💎"]

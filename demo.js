@@ -1,13 +1,13 @@
-const Tokenizer = require("./custom-tokenizer");
-const readline = require("readline");
-const fs = require("fs");
+import CustomTokenizer from "@shivanandasai/emoji-tokenizer";
+import readline from "readline";
+import fs from "fs";
 
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout,
 });
 
-const tokenizer = new Tokenizer();
+const tokenizer = new CustomTokenizer();
 
 function showMenu() {
   console.log("\nCustom Tokenizer CLI Demo");

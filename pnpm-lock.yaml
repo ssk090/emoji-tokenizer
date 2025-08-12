@@ -8,11 +8,17 @@ importers:
 
   .:
     dependencies:
+      '@shivanandasai/emoji-tokenizer':
+        specifier: ^1.0.0
+        version: 1.0.0
       js-tiktoken:
         specifier: ^1.0.21
         version: 1.0.21
 
 packages:
+
+  '@shivanandasai/emoji-tokenizer@1.0.0':
+    resolution: {integrity: sha512-oBD6Yif1keKo6HLw38RGE5UrTgW9YHI3c62x3QLG38gQvF1boAtzusef85sxYYQRdzWQa8S5oOnd3VmKFO8ENw==}
 
   base64-js@1.5.1:
     resolution: {integrity: sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==}
@@ -21,6 +27,10 @@ packages:
     resolution: {integrity: sha512-biOj/6M5qdgx5TKjDnFT1ymSpM5tbd3ylwDtrQvFQSu0Z7bBYko2dF+W/aUkXUPuk6IVpRxk/3Q2sHOzGlS36g==}
 
 snapshots:
+
+  '@shivanandasai/emoji-tokenizer@1.0.0':
+    dependencies:
+      js-tiktoken: 1.0.21
 
   base64-js@1.5.1: {}
 

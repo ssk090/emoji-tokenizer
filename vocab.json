@@ -31,32 +31,7 @@
   },
   {
     "id": 7,
-    "token": "hello",
+    "token": "shiv",
     "emoji": "🌈"
-  },
-  {
-    "id": 8,
-    "token": "my",
-    "emoji": "🎯"
-  },
-  {
-    "id": 9,
-    "token": "name",
-    "emoji": "💡"
-  },
-  {
-    "id": 10,
-    "token": "is",
-    "emoji": "🍕"
-  },
-  {
-    "id": 11,
-    "token": "shivananda",
-    "emoji": "🥑"
-  },
-  {
-    "id": 12,
-    "token": "sai",
-    "emoji": "🛸"
   }
 ]
