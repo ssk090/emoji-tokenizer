@@ -1,0 +1,23 @@
+{
+  "name": "@shivanandasai/emoji-tokenizer",
+  "version": "1.0.0",
+  "description": "A simple emoji tokenizer for encoding and decoding text into emoji sequences.",
+  "main": "custom-tokenizer.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "emoji",
+    "tokenizer",
+    "text",
+    "encoding",
+    "decoding"
+  ],
+  "author": "Shivananda Sai",
+  "license": "MIT",
+  "packageManager": "pnpm@10.9.0",
+  "dependencies": {
+    "js-tiktoken": "^1.0.21"
+  }
+}

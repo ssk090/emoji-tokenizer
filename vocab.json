@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "token": "<|im_start|>",
+    "emoji": "🛫"
+  },
+  {
+    "id": 2,
+    "token": "<|im_end|>",
+    "emoji": "🛑"
+  },
+  {
+    "id": 3,
+    "token": "<|im_sep|>",
+    "emoji": "✂️"
+  },
+  {
+    "id": 4,
+    "token": "<|system|>",
+    "emoji": "🖥️"
+  },
+  {
+    "id": 5,
+    "token": "<|user|>",
+    "emoji": "🙋"
+  },
+  {
+    "id": 6,
+    "token": "<|assistant|>",
+    "emoji": "🤖"
+  },
+  {
+    "id": 7,
+    "token": "hello",
+    "emoji": "🌈"
+  },
+  {
+    "id": 8,
+    "token": "my",
+    "emoji": "🎯"
+  },
+  {
+    "id": 9,
+    "token": "name",
+    "emoji": "💡"
+  },
+  {
+    "id": 10,
+    "token": "is",
+    "emoji": "🍕"
+  },
+  {
+    "id": 11,
+    "token": "shivananda",
+    "emoji": "🥑"
+  },
+  {
+    "id": 12,
+    "token": "sai",
+    "emoji": "🛸"
+  }
+]
