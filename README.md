@@ -21,7 +21,7 @@ https://github.com/user-attachments/assets/a4da855b-978e-4abf-988f-a9d6434cd28b
 1. Clone the repo:
    ```sh
    git clone <your-repo-url>
-   cd gen-ai-js
+   cd emoji-tokenizer
    ```
 2. Install dependencies (none required for core demo):
    ```sh
